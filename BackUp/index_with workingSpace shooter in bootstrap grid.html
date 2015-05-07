@@ -16,20 +16,13 @@ title: Games.
 		</script>
 		<script type="text/javascript">
 		<!--
-			var config1 = {
+			var config = {
 				width: 600, 
 				height: 400,
 				params: { enableDebugging:"0" }
 				
 			};
-			var config2 = {
-				width: 800, 
-				height: 500,
-				params: { enableDebugging:"0" }
-				
-			};
-			var u = new UnityObject2(config1);
-			var v = new UnityObject2(config2);
+			var u = new UnityObject2(config);
 
 			jQuery(function() {
 
@@ -37,11 +30,6 @@ title: Games.
 				var $brokenScreen = jQuery("#unityPlayer").find(".broken");
 				$missingScreen.hide();
 				$brokenScreen.hide();
-				
-				var $missingScreen2 = jQuery("#unityPlayer2").find(".missing2");
-				var $brokenScreen2 = jQuery("#unityPlayer2").find(".broken2");
-				$missingScreen2.hide();
-				$brokenScreen2.hide();
 				
 				u.observeProgress(function (progress) {
 					switch(progress.pluginStatus) {
@@ -70,35 +58,56 @@ title: Games.
 						break;
 					}
 				});
-				v.observeProgress(function (progress) {
+				u.initPlugin(jQuery("#unityPlayer")[0], "SpaceShooter.unity3d");
+				
+			});
+		-->
+		</script>
+		<script type="text/javascript">
+		<!--
+			var config = {
+				width: 800, 
+				height: 500,
+				params: { enableDebugging:"0" }
+				
+			};
+			var u = new UnityObject2(config);
+u.initPlugin(jQuery("#RollBallid"[0], "RollBall.unity3d");
+			jQuery(function() {
+
+				var $missingScreen = jQuery("#RollBallid").find(".missing");
+				var $brokenScreen = jQuery("#RollBallid").find(".broken");
+				$missingScreen.hide();
+				$brokenScreen.hide();
+				
+				u.observeProgress(function (progress) {
 					switch(progress.pluginStatus) {
 						case "broken":
-							$brokenScreen2.find("a").click(function (e) {
+							$brokenScreen.find("a").click(function (e) {
 								e.stopPropagation();
 								e.preventDefault();
-								v.installPlugin();
+								u.installPlugin();
 								return false;
 							});
-							$brokenScreen2.show();
+							$brokenScreen.show();
 						break;
 						case "missing":
-							$missingScreen2.find("a").click(function (e) {
+							$missingScreen.find("a").click(function (e) {
 								e.stopPropagation();
 								e.preventDefault();
-								v.installPlugin();
+								u.installPlugin();
 								return false;
 							});
-							$missingScreen2.show();
+							$missingScreen.show();
 						break;
 						case "installed":
-							$missingScreen2.remove();
+							$missingScreen.remove();
 						break;
 						case "first":
 						break;
 					}
 				});
-				u.initPlugin(jQuery("#unityPlayer")[0], "SpaceShooter.unity3d");
-				v.initPlugin(jQuery("#unityPlayer2")[0], "RollBall.unity3d");
+				u.initPlugin(jQuery("#RollBallid"[0], "RollBall.unity3d");
 				
 			});
 		-->
@@ -182,13 +191,13 @@ title: Games.
 </div>
 <div class="row">
 <div class="col-md-6">
-<div id="unityPlayer2">
-				<div class="missing2">
+<div id="RollBallid">
+				<div class="missing">
 					<a href="http://unity3d.com/webplayer/" title="Unity Web Player. Install now!">
 						<img alt="Unity Web Player. Install now!" src="http://webplayer.unity3d.com/installation/getunity.png" width="193" height="63" />
 					</a>
 				</div>
-				<div class="broken2">
+				<div class="broken">
 					<a href="http://unity3d.com/webplayer/" title="Unity Web Player. Install now! Restart your browser after install.">
 						<img alt="Unity Web Player. Install now! Restart your browser after install." src="http://webplayer.unity3d.com/installation/getunityrestart.png" width="193" height="63" />
 					</a>
