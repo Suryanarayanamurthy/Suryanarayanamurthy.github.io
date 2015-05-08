@@ -28,9 +28,16 @@ title: Games.
 				params: { enableDebugging:"0" }
 				
 			};
+			var config3 = {
+				width: 600, 
+				height: 400,
+				params: { enableDebugging:"0" }
+				
+			};
 			var u = new UnityObject2(config1);
 			var v = new UnityObject2(config2);
-
+			var w = new UnityObject2(config3);
+			
 			jQuery(function() {
 
 				var $missingScreen = jQuery("#unityPlayer").find(".missing");
@@ -42,6 +49,12 @@ title: Games.
 				var $brokenScreen2 = jQuery("#unityPlayer2").find(".broken2");
 				$missingScreen2.hide();
 				$brokenScreen2.hide();
+				
+				
+				var $missingScreen3 = jQuery("#unityPlayer3").find(".missing3");
+				var $brokenScreen3 = jQuery("#unityPlayer3").find(".broken3");
+				$missingScreen3.hide();
+				$brokenScreen3.hide();
 				
 				u.observeProgress(function (progress) {
 					switch(progress.pluginStatus) {
@@ -97,9 +110,37 @@ title: Games.
 						break;
 					}
 				});
+				w.observeProgress(function (progress) {
+					switch(progress.pluginStatus) {
+						case "broken":
+							$brokenScreen3.find("a").click(function (e) {
+								e.stopPropagation();
+								e.preventDefault();
+								w.installPlugin();
+								return false;
+							});
+							$brokenScreen3.show();
+						break;
+						case "missing":
+							$missingScreen3.find("a").click(function (e) {
+								e.stopPropagation();
+								e.preventDefault();
+								w.installPlugin();
+								return false;
+							});
+							$missingScreen3.show();
+						break;
+						case "installed":
+							$missingScreen3.remove();
+						break;
+						case "first":
+						break;
+					}
+				});
+				
 				u.initPlugin(jQuery("#unityPlayer")[0], "SpaceShooter.unity3d");
 				v.initPlugin(jQuery("#unityPlayer2")[0], "RollBall.unity3d");
-				
+				w.initPlugin(jQuery("#unityPlayer3")[0], "3rdPersonShooter.unity3d");
 			});
 		-->
 		</script>
@@ -259,6 +300,50 @@ Objective: try to score maximum score without getting collided by the asteroids.
 
 </div>
 </div>
+
+
+
+<div class="jumbotron">
+<div class="row">
+
+
+<div class="col-md-6">
+<div id="unityPlayer3">
+				<div class="missing3">
+					<a href="http://unity3d.com/webplayer/" title="Unity Web Player. Install now!">
+						<img alt="Unity Web Player. Install now!" src="http://webplayer.unity3d.com/installation/getunity.png" width="193" height="63" />
+					</a>
+				</div>
+				<div class="broken3">
+					<a href="http://unity3d.com/webplayer/" title="Unity Web Player. Install now! Restart your browser after install.">
+						<img alt="Unity Web Player. Install now! Restart your browser after install." src="http://webplayer.unity3d.com/installation/getunityrestart.png" width="193" height="63" />
+					</a>
+				</div>
+			</div>
+</div>
+
+
+<div class="col-md-6">
+<h3>Third Baby Shooter </h3>
+  <p>
+  Instructions:<br>
+  PLAY: press PLAY for start playing the game.<br>
+  Navigation:use 'w','a','s','d' or up,down,right,left arrows to roll the ball.<br>
+  Shooting: use LMB for shooting<br>
+  Direction: Use mouse to change the direction of the shooter.<br>
+  </p>
+  <p>
+  I followed an online tutorial for doing this game.<br>
+  I learnt many aspects of player animations and it's controllers by doing this game.<br><br>
+    
+  </p>
+</div>
+
+
+</div>
+</div>
+
+
 
 <div class="jumbotron">
 
