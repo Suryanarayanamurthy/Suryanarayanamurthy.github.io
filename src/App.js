@@ -43,6 +43,19 @@ import './App.css';
     );
   }
 }
+
+class Footer extends Component {
+  render() {
+    return (
+      <footer className="footer">
+        <span>
+        Built by Suryanarayanamurthy
+        </span>
+      </footer>
+    );
+  }
+}
+
 //some DomParsing to insclide html in a string ...
 // error as object cannot be put in react shit, wil deal with this shit later, for now just hardcode the self intro string, to move forward.
 /*let selfIntroXmlString = "I am currently working as a Lead Software Developer/ Technology Manager in a start-up in Berlin.\n my responsibility here include  develop and manage a web app called <a href='http://www.hellocoach.de/'> HelloCoach</a> . I'm also involved in Sprint planning, managing a team of interns and freelancers.\n I have about 6+ years of experience in software development, in various domains and technologies. I am looking forward for a new opportunity to learn and develop in competitive and challenging environment.";
@@ -62,6 +75,12 @@ class App extends Component {
         <p className="App-intro">
           I am currently working as a Lead Software Developer/ Technology Manager in a start-up in Berlin.\n my responsibility here include  develop and manage a web app called <a href='http://www.hellocoach.de/' target="_blank"> HelloCoach</a> . I'm also involved in Sprint planning, managing a team of interns and freelancers.\n I have about 6+ years of experience in software development, in various domains and technologies. I am looking forward for a new opportunity to learn and develop in competitive and challenging environment.
         </p>
+        <div>Some of my selected pet projects</div>
+        <div>
+          {//put projects here
+          }
+        </div>
+        <Footer/>
       </div>
     );
   }
