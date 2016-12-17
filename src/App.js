@@ -56,6 +56,37 @@ class Footer extends Component {
   }
 }
 
+class Project extends Component {
+
+  render() {
+
+    return (
+      <div className="project-container">
+        <div>
+          <a href='#' target="_blank">
+            <h2>Portfolio</h2>
+          </a>
+          <a href='#' target="_blank">
+            GitHub
+          </a>
+          <div>2016</div>
+          <h3>Background</h3>
+          <div>This is my portfolio project</div>
+          <h3>Role</h3>
+          <div>"The Developer"</div>
+          <h3>Tech Stack</h3>
+          <div >
+            <ul>
+            <li>React</li>
+            <li>Heroku</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    );
+  }
+}
+
 //some DomParsing to insclide html in a string ...
 // error as object cannot be put in react shit, wil deal with this shit later, for now just hardcode the self intro string, to move forward.
 /*let selfIntroXmlString = "I am currently working as a Lead Software Developer/ Technology Manager in a start-up in Berlin.\n my responsibility here include  develop and manage a web app called <a href='http://www.hellocoach.de/'> HelloCoach</a> . I'm also involved in Sprint planning, managing a team of interns and freelancers.\n I have about 6+ years of experience in software development, in various domains and technologies. I am looking forward for a new opportunity to learn and develop in competitive and challenging environment.";
@@ -77,8 +108,7 @@ class App extends Component {
         </p>
         <div>Some of my selected pet projects</div>
         <div>
-          {//put projects here
-          }
+          <Project/>
         </div>
         <Footer/>
       </div>
