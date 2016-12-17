@@ -56,35 +56,53 @@ class Footer extends Component {
   }
 }
 
-class Project extends Component {
+let projectsData = [{
+      title: 'Portfolio',
+      date: '2016',
+      github_url: 'https://github.com/',
+      project_url: 'https://github.com/',
+      background: 'This is my portfolio project',
+      role: "\" The Developer\"",
+      tech_stack: ['React.js', 'Heroku']
 
-  render() {
+}];
 
-    return (
+
+class Projects extends Component{
+  render(props){
+    return(<div>
+      {this.props.projectsData.map((projectItem,index)=> (<Project key={index} projectData={projectItem} />))}
+        </div>
+      );
+  }
+}
+
+
+function Project (props) {
+  const projectData = props.projectData;
+  return (
       <div className="project-container">
         <div>
           <a href='#' target="_blank">
-            <h2>Portfolio</h2>
+            <h2>{projectData.title}</h2>
           </a>
           <a href='#' target="_blank">
             GitHub
           </a>
-          <div>2016</div>
+          <div>{projectData.date}</div>
           <h3>Background</h3>
-          <div>This is my portfolio project</div>
+          <div>{projectData.background}</div>
           <h3>Role</h3>
-          <div>"The Developer"</div>
+          <div>{projectData.role}</div>
           <h3>Tech Stack</h3>
           <div >
             <ul>
-            <li>React</li>
-            <li>Heroku</li>
+            {projectData.tech_stack.map((tech_item,index) => <li key={index}>{tech_item}</li>)}
             </ul>
           </div>
         </div>
       </div>
     );
-  }
 }
 
 //some DomParsing to insclide html in a string ...
@@ -108,7 +126,7 @@ class App extends Component {
         </p>
         <div>Some of my selected pet projects</div>
         <div>
-          <Project/>
+          <Projects projectsData={projectsData}/>
         </div>
         <Footer/>
       </div>
