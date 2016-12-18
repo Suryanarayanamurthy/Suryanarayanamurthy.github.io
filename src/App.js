@@ -11,9 +11,7 @@ class App extends Component {
     console.log('hi'+projectsData);
     return (
       <div className="App">
-        <div className="App-header">
           <Header/>
-        </div>
         <p className="App-intro">
           I am currently working as a Lead Software Developer/ Technology Manager in a start-up in Berlin.\n my responsibility here include  develop and manage a web app called <a href='http://www.hellocoach.de/' target="_blank"> HelloCoach</a> . I'm also involved in Sprint planning, managing a team of interns and freelancers.\n I have about 6+ years of experience in software development, in various domains and technologies. I am looking forward for a new opportunity to learn and develop in competitive and challenging environment.
         </p>
