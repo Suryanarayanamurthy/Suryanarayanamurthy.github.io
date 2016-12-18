@@ -1,5 +1,5 @@
  import React, { Component } from 'react';
- import projectsData from '../data/projectsData';
+ import {personalInfo} from '../data/miscData';
 
  export function Header (){
     return (
@@ -7,31 +7,31 @@
 
             <div className="container">
               <div className="navbar-brand">
-                <a href="#" > Suryanarayanamurthy </a>
+                <a href="#" >{personalInfo.name}</a>
               </div>
               <ul className="nav navbar-nav pull-right">
                 <li>
-                  <a href='#' className="nav-link" target="_blank" style={{ lineHeight: 'normal' }}>
+                  <a href={personalInfo.resume} download style={{ lineHeight: 'normal' }}>
                     <span>Resume</span>
                   </a>
                 </li>
                 <li>
-                  <a href='#' className="nav-link">
+                  <a href={personalInfo.email} className="nav-link">
                     <i className="fa fa-envelope icon"></i>
                   </a>
                 </li>
                 <li>
-                  <a href='https://github.com/Suryanarayanamurthy' className="nav-link" target="_blank">
+                  <a href={personalInfo.github} className="nav-link" target="_blank">
                     <i className="fa fa-github icon"></i>
                   </a>
                 </li>
                 <li>
-                  <a href='https://de.linkedin.com/in/suryanarayanamurthy1' className="nav-link" target="_blank">
+                  <a href={personalInfo.linkedIn} className="nav-link" target="_blank">
                     <i className="fa fa-linkedin-square icon"></i>
                   </a>
                 </li>
                 <li>
-                  <a href='https://angel.co/suryanarayanamurthy-hanumantha-vajjhala' className="nav-link" target="_blank">
+                  <a href={personalInfo.angelList} className="nav-link" target="_blank">
                     <i className="fa fa-angellist icon"></i>
                   </a>
                 </li>
