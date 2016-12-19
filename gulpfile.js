@@ -10,3 +10,5 @@ gulp.task('styles', function(){
         .pipe(sass().on('error', sass.logError))
         .pipe(gulp.dest(cssDest));
 });
+
+gulp.task('default', ['styles']);
