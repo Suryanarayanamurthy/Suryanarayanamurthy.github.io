@@ -12,7 +12,9 @@ class App extends Component {
       <div className="main-app-container container-fluid">
           <Header />
         <div className="introduction">
-          I am currently working as a Lead Software Developer/ Technology Manager in a start-up in Berlin.\n my responsibility here include  develop and manage a web app called <a href='http://www.hellocoach.de/' target="_blank"> HelloCoach</a> . I'm also involved in Sprint planning, managing a team of interns and freelancers.\n I have about 6+ years of experience in software development, in various domains and technologies. I am looking forward for a new opportunity to learn and develop in competitive and challenging environment.
+        <h3>Hi, I am Surya.</h3> <br/>
+          I am a Software Engineer in Berlin.
+           I'm originally from Bangalore, India and I graduated in 2009. Since then I’ve worked on projects ranging from Mission critial Bosh Security systems to Sports teams management apps. I love Learning new technologies and harnessing technology to make new and exciting things.
         </div>
         <div className="main-app-nav">Some of my selected pet projects</div>
           <Projects projectsData={projectsData}/>

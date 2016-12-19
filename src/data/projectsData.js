@@ -5,17 +5,17 @@ const projectsData = [{
       project_url: 'https://suryanarayanamurthy.herokuapp.com/',
       background: 'This is my portfolio project',
       role: "\" The Developer\"",
-      tech_stack: ['React.js', 'Heroku','Node.js']
+      tech_stack: ['React.js', 'Heroku']
 
 },
 {
-	  title: 'Portfolio',
+      title: 'Pomodoro App',
       date: '2016',
-      github_url: 'https://github.com/',
-      project_url: 'https://github.com/',
-      background: 'This is my portfolio project',
+      github_url: 'https://github.com/Suryanarayanamurthy/pomodoro',
+      project_url: 'http://codepen.io/Suryanarayanamurthy/pen/LpQOJW',
+      background: 'This is a Pomodoroapp',
       role: "\" The Developer\"",
-      tech_stack: ['React.js', 'Heroku']
+      tech_stack: ['AngularJS']
 
 }
 ];
