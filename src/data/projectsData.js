@@ -18,6 +18,17 @@ const projectsData = [{
       tech_stack: ['AngularJS']
 
 },
+{
+      title: 'Welcome to the Machine',
+      date: '2016',
+      github_url: 'https://github.com/intothemachine/intothemachine.github.io',
+      project_url: 'https://welcometothemachine.herokuapp.com/',
+      background: 'This is tech Blog, where anyone read or write a post, comment on a post etc,... \n This is a Work in progress.',
+      role: "Full Stack Developer",
+      tech_stack: ['React.js', 'Node.js', 'express','Redux']
+
+},
+
 
 ];
 export {projectsData};

@@ -84,7 +84,7 @@ function Project (props) {
   return (
       <div className="project-container">
         <div className="project-info">
-          <a href='#' target="_blank">
+          <a href={projectData.project_url} target="_blank">
             <h2>{projectData.title}</h2>
           </a>
           <a href={projectData.github_url} target="_blank">
