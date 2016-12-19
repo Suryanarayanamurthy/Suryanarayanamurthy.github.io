@@ -26,6 +26,11 @@
                   </a>
                 </li>
                 <li>
+                  <a href="http://codepen.io/Suryanarayanamurthy/" target="_blank">
+                    <i className="fa fa-codepen icon"></i>
+                  </a>
+                </li>
+                <li>
                   <a href={personalInfo.linkedIn} className="nav-link" target="_blank">
                     <i className="fa fa-linkedin-square icon"></i>
                   </a>

@@ -148,7 +148,6 @@ ul.nav {
 
 .introduction {
   background-color: #e1e0dd;
-  width: 80vw;
   padding: 1vh 1vw 1vh 1vw;
   margin-bottom: 2em;
   margin-top: 2em; }
@@ -158,3 +157,7 @@ ul.nav {
   @media only screen and (max-device-width: 600px) {
     .navbar-brand {
       font-size: 3rem; } }
+
+.profile-pic {
+  height: 15em;
+  width: auto; }
