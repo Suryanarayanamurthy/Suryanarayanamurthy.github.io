@@ -2,6 +2,7 @@ const projectsData = [
 {
       title: 'HelloCoach(Sportakus)',
       date: '2016',
+      github_url: '',
       project_url: 'http://www.hellocoach.de/',
       background: "Hello Coach helps you to save time managing your sports team: organize events, coordinate meeting locations, see availabilities, track attendances, and much more. \n I joint Sportakus as their first employee, and took responsibility of the full stack implementation of the app. \n The tech stack I used here includes Ionic framework (Angularjs under the hood)  ,  Mongodb, expressjs etc,.",
       role: "Technology Manager/ Full-Stack-Developer.",

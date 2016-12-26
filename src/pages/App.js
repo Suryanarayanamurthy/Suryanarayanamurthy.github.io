@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 //import logo from './logo.svg';
 import './App.css';
-import {projectsData} from './data/projectsData';
+import {projectsData} from '../data/projectsData';
 
 
-import {Header,Footer, Projects} from './components/components';
+import {Header,Footer, Projects} from '../components/components';
 
 class App extends Component {
   render() {
