@@ -22,7 +22,7 @@ class App extends Component {
            <img src="profilePic.jpg" alt="Surya" className="profile-pic"></img>
            </div>
         </div>
-        <div className="main-app-nav">Some of my selected pet projects</div>
+        <div className="main-app-nav">Some of my selected projects:</div>
           <Projects projectsData={projectsData}/>
         <Footer/>
       </div>
