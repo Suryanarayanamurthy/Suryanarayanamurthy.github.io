@@ -3,7 +3,7 @@ var sass = require('gulp-sass');
 
 //style paths
 var sassFiles = 'src/styles/*.scss',  
-    cssDest = 'src/';
+    cssDest = 'src/pages/';
 
 gulp.task('styles', function(){  
     gulp.src(sassFiles)

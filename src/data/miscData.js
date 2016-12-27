@@ -13,7 +13,7 @@ const iconsData = {
   express: 'https://cdn2.iconfinder.com/data/icons/nodejs-1/512/nodejs-512.png',
   PostgreSQL: 'http://tapoueh.org/images/220px-Postgresql_elephant.svg.png',
   'socket.io': 'https://www.pubnub.com/blog/wp-content/uploads/2014/07/SOCKETIOICON.gif',
-  Ionic: 'http://uxrepo.com/static/icon-sets/ionicons/svg/ionic.svg',
+  Ionic: 'icons/ionic.png',
   AngularJS: 'https://lh6.googleusercontent.com/-TlY7amsfzPs/T9ZgLXXK1cI/AAAAAAABK-c/Ki-inmeYNKk/w800-h800/AngularJS-Shield-large.png',
   MongoDB: 'http://www.todobackend.com/images/logos/mongodb.png',
   neo4j: 'https://avatars3.githubusercontent.com/u/218965?v=3&s=200',
