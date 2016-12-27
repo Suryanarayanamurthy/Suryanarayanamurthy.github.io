@@ -8,20 +8,20 @@
 
             <div className="container">
               <div className="navbar-brand">
-                <a href="/" >
-                  <Link to="/"/>
+                  <Link to="/">
                   {personalInfo.name}
-                </a>
+                  </Link>                
               </div>
               <ul className="nav navbar-nav pull-right">
-                <li className="nav-link">
+                <li>
                   {/*<a href={personalInfo.resume} download style={{ lineHeight: 'normal' }}>
                     <span>Resume</span>
                   </a>*/}
-                  <a href="/resume">
-                  <Link to="/resume" />
-                    <span>Resume</span>
-                  </a>
+                    <Link to="/resume">
+                    Resume
+                    </Link>
+                  
+                  
                 </li>
                 <li>
                   <a href={personalInfo.email} className="nav-link">
