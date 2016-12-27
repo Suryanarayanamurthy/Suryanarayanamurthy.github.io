@@ -1,5 +1,6 @@
  import React, { Component } from 'react';
  import {personalInfo, iconsData} from '../data/miscData';
+ import {Link} from 'react-router'
 
  export function Header (){
     return (
@@ -7,11 +8,18 @@
 
             <div className="container">
               <div className="navbar-brand">
-                <a href="#" >{personalInfo.name}</a>
+                <a href="/" >
+                  <Link to="/"/>
+                  {personalInfo.name}
+                </a>
               </div>
               <ul className="nav navbar-nav pull-right">
-                <li>
-                  <a href={personalInfo.resume} download style={{ lineHeight: 'normal' }}>
+                <li className="nav-link">
+                  {/*<a href={personalInfo.resume} download style={{ lineHeight: 'normal' }}>
+                    <span>Resume</span>
+                  </a>*/}
+                  <a href="/resume">
+                  <Link to="/resume" />
                     <span>Resume</span>
                   </a>
                 </li>

@@ -4,6 +4,7 @@ import About from '../components/resumeComponents/About';
 import Work from '../components/resumeComponents/Work';
 import Skills from '../components/resumeComponents/Skills';
 import Education from '../components/resumeComponents/Education';
+import {Header} from '../components/components';
 const jsonObj = require('../data/resume.json');
 
 const Resume = () => {
@@ -14,6 +15,8 @@ const Resume = () => {
   const educationData = jsonObj.education;
   // console.log(profileData)
   return (
+          <div className="main-app-container container-fluid">
+          <Header/>
           <div className="container">
             <div className="row">
               <aside className="col-md-4">
@@ -30,6 +33,7 @@ const Resume = () => {
                 </div>
               </main>
             </div>
+          </div>
           </div>
     )
 };
