@@ -18,6 +18,10 @@ const Profile = props => {
                   </ul>
                   <div className="divider"></div>
                   <p>I built this page with <a href="https://facebook.github.io/react/" target="_blank">React</a> components and a <a href="https://jsonresume.org/schema/" target="_blank">JSON Resume Schema</a>. The full source code can be found in <a href="https://github.com/Suryanarayanamurthy/Suryanarayanamurthy.github.io" target="_blank">my Github repo</a>.</p>
+                  <div className="divider"></div>
+                  <p>Download resume:</p>
+                  <li><a href="resume/Hanumantha-Vajjhala-CV-Dec-2016.json" download>in JSON format</a></li>
+                  <li><a href="resume/Hanumantha-Vajjhala-CV-Dec-2016.pdf" download>in pdf format</a></li>
             </div>
 };
 
