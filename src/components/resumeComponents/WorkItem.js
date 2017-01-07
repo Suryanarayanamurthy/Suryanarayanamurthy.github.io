@@ -1,5 +1,6 @@
 import React from 'react';
 import moment from 'moment';
+   
 
 const WorkItem = props => {
     const getWorkDates = () => {
@@ -22,10 +23,23 @@ const WorkItem = props => {
         <div className="workItem">
           <h3>{props.workItemData.position}, <span>{props.workItemData.company}</span></h3>
           <p className="workDates">{getWorkDates()}</p>
-          <p>{props.workItemData.summary}</p>
+          <Text content={props.workItemData.summary}/>
           <ul>{getHighlights}</ul>
         </div>
     )
 };
+/* helper function/component to implement line break '<br />' by parsing the string*/
+function breakLine(text) {
+    var regex = /(<br \/>)/g;
+    return text.split(regex).map(function(line) {
+        return line.match(regex) ? React.createElement('br') : line;
+    });
+}
+
+const Text = React.createClass({
+    render: function() {
+        return <div>{ breakLine(this.props.content) }</div>;
+    }
+});
 
 export default WorkItem;
