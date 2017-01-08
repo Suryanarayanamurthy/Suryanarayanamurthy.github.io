@@ -14,7 +14,7 @@ const projectsData = [
       date: '2016',
       github_url: 'https://github.com/Suryanarayanamurthy/Suryanarayanamurthy.github.io',
       project_url: 'https://suryanarayanamurthy.herokuapp.com/',
-      background: "This is my 3rd Iteration of creating my portfolio .This time, I purged my old portfolio and did a brand one starting from 'create-react-app'",
+      background: "This is my 3rd Iteration of creating my portfolio .This time, I purged my old portfolio and did a brand new one starting from 'create-react-app'",
       role: "\" The Developer\"",
       tech_stack: ['React.js', 'Heroku']
 
