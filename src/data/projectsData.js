@@ -39,6 +39,15 @@ const projectsData = [
       tech_stack: ['React.js', 'Node.js', 'express','Redux']
 
 },
+{
+      title: 'Connect 4',
+      date: '2016',
+      github_url: 'https://github.com/Suryanarayanamurthy/Connect-4',
+      background: "Connect Four (also known as Captain's Mistress) is a two-player connection game in which the players first choose a color and then take turns dropping colored discs from the top into a seven-column, six-row vertically suspended grid. The pieces fall straight down, occupying the next available space within the column. The objective of the game is to be the first to form a horizontal, vertical, or diagonal line of four of one's own discs. \n I implemented the AI for the 'other' player, This is my 1st take on ES-2015 and Pixijs",
+      role: "Front End Developer",
+      tech_stack: ['ES-2015', 'Pixijs']
+
+},
 
 
 ];
