@@ -48,6 +48,15 @@ const projectsData = [
       tech_stack: ['ES-2015', 'Pixijs']
 
 },
+{
+      title: 'Local Weather App',
+      date: '2015',
+      github_url: 'https://github.com/Suryanarayanamurthy/LocalWeatherApp',
+      background: "shows local weather. using Angular.JS(1.5-2.0beta version), using Yahoo's yql restful api to get weather info, using google maps to display location.",
+      role: "Front End Developer",
+      tech_stack: ['AngularJS','Yahoo yql api' ,'google maps']
+
+}
 
 
 ];
