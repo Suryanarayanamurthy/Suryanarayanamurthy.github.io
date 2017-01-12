@@ -18,7 +18,7 @@
                     <span>Resume</span>
                   </a>*/}
                     <Link to="/resume">
-                    About/ Resume
+                    About
                     </Link>
                   
                   
