@@ -34,7 +34,7 @@ const projectsData = [
       date: '2016',
       github_url: 'https://github.com/intothemachine/intothemachine.github.io',
       project_url: 'https://welcometothemachine.herokuapp.com/',
-      background: 'This is tech Blog, where anyone read or write a post, comment on a post etc,... \n This is a Work in progress.',
+      background: 'This is tech Blog, where anyone can read or write a post, comment on a post etc,... \n This is a Work in progress.',
       role: "Full Stack Developer",
       tech_stack: ['React.js', 'Node.js', 'express','Redux']
 
@@ -52,7 +52,7 @@ const projectsData = [
       title: 'Local Weather App',
       date: '2015',
       github_url: 'https://github.com/Suryanarayanamurthy/LocalWeatherApp',
-      background: "shows local weather. using Angular.JS(1.5-2.0beta version), using Yahoo's yql restful api to get weather info, using google maps to display location.",
+      background: "shows local weather, based on the location info we get from your browser.",
       role: "Front End Developer",
       tech_stack: ['AngularJS','Yahoo yql api' ,'google maps']
 
