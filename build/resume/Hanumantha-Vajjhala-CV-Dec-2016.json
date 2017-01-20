@@ -1,0 +1,146 @@
+{
+  "basics": {
+    "name": "Suryanarayanamurthy, Hanumantha Vajjhala",
+    "label": "Full Stack Developer",
+    "picture": "profilePic2.jpg",
+    "email": "suryanarayan.murthy@gmail.com",
+    "phone": "+49-17661473880",
+    "website": "https://suryanarayanamurthy.herokuapp.com/",
+    "summary": "Over the past 7 years I have continuously challenged myself with new languages, frameworks and methodologies. My core Skills have always been Learning New Technologies and adopting to it very quickly.  In my current role at Sportakus I am working on an Full-Stack-Developer using the MEAN stack (MongoDB, ExpressJS, AngularJS & Nodejs). I have a very strong interest in full stack javascript development and have recently been experimenting with React, Redux, as well as ES6 as you will see from my Github repos. I have experience using build tools such as Webpack & Gulp and and preprocessors like CoffeeScript templating languages such as Pug(Jade) and experience using Git. In my most recent role I have been exposed to enterprise Agile development; JIRA.",
+    "location": {
+      "address": "Mühsamstraße 36",
+      "postalCode": "10249",
+      "city": "Berlin",
+      "countryCode": "DE"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "Suryanarayanamurthy",
+        "url": "https://github.com/Suryanarayanamurthy"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Sportakus",
+      "position": "Technology Manager/ Full-Stack-Developer",
+      "website": "http://www.hellocoach.de/",
+      "startDate": "2016-02-01",
+      "endDate": "2016-12-01",
+      "summary": "I joint Sportakus as their first employee, and took responsibility of the full stack implementation of the app. \n The tech stack I used here includes Ionic framework (Angularjs under the hood)  ,  Mongodb, expressjs etc,.",
+      "highlights": ["AngularJS","Ionic framework", "MongoDB","ExpressJS"]
+    },
+    {
+      "company": "SAP SE",
+      "position": "Master Thesis",
+      "website": "http://www.sap.com/corporate/en.html",
+      "startDate": "2014-12-01",
+      "endDate": "2015-01-01",
+      "summary": " I worked full time at SAP, to do my research project for my Master's Thesis. In this thesis we analyze and try to understand what are the issues with Agile methodology for International Projects and what are the known issues with current tools used for project management. After that we discuss all the possible solutions and put together these solutions as detailed software requirements for a tool called 'Backlog Management Tool'",
+      "highlights": ["HANA XS","SAP WEB IDE","HANA studio"]
+    },
+    {
+      "company": "SAP SE",
+      "position": "Werkstudent/ Working Student",
+      "website": "http://www.sap.com/corporate/en.html",
+      "startDate": "2014-04-01",
+      "endDate": "2014-11-01",
+      "summary": " I worked part-time at SAP during my Master's studies. Here my job was to analyze on two topics,Fraud management and on Agile methodology  for Banking and Finance Globalization department. I continued my research on Agile methodology and have done a thesis on this domain.",
+      "highlights": ["HANA","HANA XS","SAP WEB IDE","HANA studio"]
+    },
+    {
+      "company": "Robert Bosch Engineering and Business Solutions Limited",
+      "position": "Senior Software Engineer",
+      "website": "http://www.bosch-india-software.com/en/homepage/rbei_homepage.html",
+      "startDate": "2011-05-01",
+      "endDate": "2013-08-01",
+      "summary": "My tasks here was to Design and implement the features that met the user’s requirements document. Used input from product management and marketing team to develop the functionality and overall look of the application to fulfill needs of customer. Understood the code-review process and tried to maintain good coding practices. Interacted with customers to clarify customer requirements.\n I worked in different projects when I was at Bosch.\n1. Bosch Security Systems:\n I was involved in a team where we write configuration software to panels , so that these panels can communicate to all other safety detectors like 'fire detectors'​, 'smoke detectors'​, 'heat sensor' etc, and can make intelligent decisions based on the signals sent by these detectors.\n2. SWIFT:\nI worked for a brief period of time in a project called SWIFT , this is a tool which flashes a given binary file which is in s28 format to the ROM of the wiper motors of cars. Additionally for this project I developed automated Unit-test cases in Visual studio.\n3. Planning Software:\nThis was a tool we started from the scratch. This tool was used by building architects to estimate the cost of the installation of fire security for his/her’s building plans .This project was particularly complicated because each fire security product was having some dependency on some other product and also we had to consider the availability of that product in a particular country because of the country regulations . Because of the challenges and demands of this project we were following a Agile development process.",
+      "highlights": ["C#",".net","WPF","Win FORMS","MVVM","VisualStudio"]
+    },
+    {
+      "company": "pravagha automation pvt ltd",
+      "position": "Software Developer",
+      "website": "",
+      "startDate": "2010-06-01",
+      "endDate": "2011-04-01",
+      "summary": "Pravegha automation Pvt. Ltd. is the offshore development center for Sapphire Infotech, a California based startup to develop Sapphire's test automation solution called TestSmart.\nProject Description\n \nTestSmart as a product is a test automation framework that provides an interactive user friendly graphical interface to automate test activities without programming/scripting knowledge. TestSmart is developed using C#, DevComponents , Win-forms on DOTNET 2.0 and DOTNET 4.0. The product uses ASP.NET and Active Reports for the reporting mechanism with MS-Access as the back-end database.",
+      "highlights": []
+    },
+    {
+      "company": "pragathi info tech",
+      "position": "Software Developer",
+      "website": "",
+      "startDate": "2009-06-01",
+      "endDate": "2010-05-01",
+      "summary": "Pragathi Infotech is a product based company have developed products like\n \t1. Flex-Lab:Laboratory Information Management System for Clinical Labs.\n \t2. Just Bill: General purpose billing software.\n \t 3. Smart Money:Personal Money Manager.\nfor the above projects I was involved in the Algorithm development for retrieving data in a particular format , UI Design , development of logic for serializing and deserializing objects etc,.\n \n I mainly done the entire end to end development of Project calledSteganography ;This project hides data file of one type (i.e. video, audio, text) into another file type. This project has lots of potential for the network security , the entire application was developed in Winforms ,C# language .",
+      "highlights": []
+    }    
+  ],
+  "volunteer": [],
+  "education": [
+  {
+      "institution": "Hochschule Heidelberg",
+      "area": "informatics",
+      "studyType": "Master (M.Sc)",
+      "startDate": "2013-09-01",
+      "endDate": "2015-06-01",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "Visvesvaraya Technological University",
+      "area": "Computer Science and Engineering",
+      "studyType": "Batchelor of Engineering",
+      "startDate": "2005-06-01",
+      "endDate": "2009-06-01",
+      "gpa": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Front End Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "AngularJS",
+        "MongoDB",
+        "ES2015",
+        "ExpressJS",
+        "React",
+        "Pug",
+        "SASS",
+        "SCSS",
+        "C#",
+        ".net",
+        "WPF",
+        "Gulp",
+        "Babel",
+        "Bootstrap",
+        "Node",
+        "MySQL",
+        "Git",
+        "Jira",
+        "Responsive"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "",
+      "keywords": []
+    }
+  ],
+  "references": []
+}
