@@ -15,7 +15,7 @@ class App extends Component {
         <div className="introduction row">
         <div className="col-md-8">
         <h3 >Hi, I am Surya.</h3> <br/>
-          I am a Software Engineer in Berlin.
+          I am a Software Engineer in Hamburg.
            I'm originally from Bangalore, India. <br/>I graduated in 2009. Since then I’ve worked on projects ranging from Mission critial Bosh Security systems to Sports teams management apps. I love Learning new technologies and harnessing technology to make new and exciting things.
            </div>
            <div className="col-md-4">

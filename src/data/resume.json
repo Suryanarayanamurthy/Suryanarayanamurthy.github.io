@@ -8,9 +8,9 @@
     "website": "https://suryanarayanamurthy.herokuapp.com/",
     "summary": "Over the past 7 years I have continuously challenged myself with new Technologies, languages, frameworks and methodologies. My core Skills have always been Learning New Technologies and adopting to it very quickly.  In my most recent role at Sportakus, I worked as a Full-Stack-Developer using the MEAN stack (MongoDB, ExpressJS, AngularJS & Nodejs). I have a very strong interest in full stack javascript development and have recently been experimenting with React, Redux, as well as ES6 as you will see from my Github repos. I have experience using build tools such as Webpack & Gulp and and preprocessors like CoffeeScript templating languages such as Pug(Jade) and experience using Git. In my most recent role I have been exposed to enterprise Agile development; JIRA.",
     "location": {
-      "address": "Mühsamstraße 36",
-      "postalCode": "10249",
-      "city": "Berlin",
+      "address": "Hennenstieg 8",
+      "postalCode": "22549",
+      "city": "Hamburg",
       "countryCode": "DE"
     },
     "profiles": [
@@ -22,6 +22,15 @@
     ]
   },
   "work": [
+    {
+      "company": "Liimex",
+      "position": "Web Developer",
+      "website": "https://www.liimex.com/",
+      "startDate": "2017-02-01",
+      "endDate": "",
+      "summary": "I am working as a web developer, for a rapidly growing B2B insurence broker, Here I'm learning and working on implementing pixel perfect design.",
+      "highlights": ["React.js","SSR", "SEO","ExpressJS", "Heroku"]
+    },
     {
       "company": "Sportakus",
       "position": "Technology Manager/ Full-Stack-Developer",
